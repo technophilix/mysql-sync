@@ -1,0 +1,12 @@
+{
+    "remote_host": "",
+    "remote_user": "",
+    "remote_db": "",
+    "remote_mysql_user": "",
+    "remote_mysql_password": "",
+    "local_mysql_user": "",
+    "local_mysql_password": "",
+    "local_db": "",
+    "ssh_key_path":""
+
+}        
