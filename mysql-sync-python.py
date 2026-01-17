@@ -17,6 +17,7 @@ class DatabaseSync:
         self.remote_host = data["remote_host"]
         self.remote_user = data["remote_user"]
         self.remote_db = data["remote_db"]
+        self.remote_port = data["remote_port"]
         self.remote_mysql_user = data["remote_mysql_user"]
         self.remote_mysql_password = data["remote_mysql_password"]
         
@@ -45,7 +46,8 @@ class DatabaseSync:
             ssh.connect(
                 self.remote_host,
                 username=self.remote_user,
-                key_filename=self.ssh_key_path
+                key_filename=self.ssh_key_path,
+                port=self.remote_port
             )
             return ssh
         except Exception as e:

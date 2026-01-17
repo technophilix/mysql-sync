@@ -3,10 +3,11 @@
     "remote_user": "",
     "remote_db": "",
     "remote_mysql_user": "",
+    "remote_port":"",
     "remote_mysql_password": "",
     "local_mysql_user": "",
     "local_mysql_password": "",
     "local_db": "",
     "ssh_key_path":""
 
-}        
+}  
